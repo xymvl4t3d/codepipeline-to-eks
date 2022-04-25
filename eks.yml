@@ -1,0 +1,15 @@
+Type: AWS::EKS::Cluster
+Properties: 
+  EncryptionConfig: 
+    - EncryptionConfig
+  KubernetesNetworkConfig: 
+    KubernetesNetworkConfig
+  Logging: 
+    Logging
+  Name: String
+  ResourcesVpcConfig: 
+    ResourcesVpcConfig
+  RoleArn: String
+  Tags: 
+    - Tag
+  Version: String
